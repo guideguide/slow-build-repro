@@ -1,0 +1,25 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/license/manage/",
+      "destination": "https://guideguide.onfastspring.com/account/"
+    },
+    { "source": "/download(s)?/", "destination": "/changelog/" },
+    { "source": "/versions/", "destination": "/changelog/" }
+  ],
+  "rewrites": [
+    { "source": "/api/activate", "destination": "/api/1/license/?activate" },
+    { "source": "/api/activate/", "destination": "/api/1/license/?activate" },
+
+    { "source": "/api/validate", "destination": "/api/1/license/?validate" },
+    { "source": "/api/validate/", "destination": "/api/1/license/?validate" },
+
+    { "source": "/api/trial", "destination": "/api/1/trial/" },
+    { "source": "/api/trial/", "destination": "/api/1/trial/" },
+
+    { "source": "/api/telemetry", "destination": "/api/1/telemetry/" },
+    { "source": "/api/telemetry/", "destination": "/api/1/telemetry/" }
+  ]
+}

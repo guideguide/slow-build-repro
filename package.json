@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "guideguide",
+  "id": "me.guideguide.plugin",
+  "main": "index.js",
+  "repository": "https://github.com/guideguide/guideguide.git",
+  "author": "Cameron McEfee <cm@cameronmcefee.com>",
+  "license": "UNLICENSED",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:website": "vercel dev --listen 4000"
+  },
+  "devDependencies": {
+    "typescript": "4.7.4",
+    "vercel": "^27.3.7"
+  },
+  "version": "2022.5.1",
+  "dependencies": {}
+}

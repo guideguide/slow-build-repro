@@ -1,0 +1,39 @@
+{
+  "name": "@guideguide/website",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "14"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "@sentry/cli": "^2.5.2",
+    "@sentry/nextjs": "^7.9.0",
+    "@sentry/react": "^7.8.1",
+    "@types/semver": "^7.3.10",
+    "content-type": "^1.0.4",
+    "dotenv": "^16.0.1",
+    "etag": "^1.8.1"
+  },
+  "dependencies": {
+    "@types/content-type": "^1.1.5",
+    "@types/etag": "^1.8.1",
+    "@types/lodash": "^4.14.182",
+    "@types/mime-types": "^2.1.1",
+    "@types/multiparty": "^0.0.33",
+    "@vercel/node": "^2.5.6",
+    "excerpt-html": "^1.2.2",
+    "globby": "^13.1.2",
+    "image-size": "^1.0.2",
+    "include-media": "^1.4.10",
+    "lodash": "^4.17.21",
+    "mime-types": "^2.1.35",
+    "multiparty": "^4.2.3",
+    "next": "^12.2.4",
+    "p-queue": "6.6.2",
+    "semver": "^7.3.7"
+  },
+  "resolutions": {
+    "typescript": "4.7.4"
+  }
+}
